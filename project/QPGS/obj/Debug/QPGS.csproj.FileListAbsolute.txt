@@ -1,0 +1,53 @@
+C:\Users\new\Documents\Visual Studio 2012\Projects\QPGS\QPGS\bin\Debug\QPGS.exe.config
+C:\Users\new\Documents\Visual Studio 2012\Projects\QPGS\QPGS\bin\Debug\QPGS.exe
+C:\Users\new\Documents\Visual Studio 2012\Projects\QPGS\QPGS\bin\Debug\QPGS.pdb
+C:\Users\new\Documents\Visual Studio 2012\Projects\QPGS\QPGS\obj\Debug\QPGS.AddQuestion.resources
+C:\Users\new\Documents\Visual Studio 2012\Projects\QPGS\QPGS\obj\Debug\QPGS.CheckQuestionPaper.resources
+C:\Users\new\Documents\Visual Studio 2012\Projects\QPGS\QPGS\obj\Debug\QPGS.CreateAccount.resources
+C:\Users\new\Documents\Visual Studio 2012\Projects\QPGS\QPGS\obj\Debug\QPGS.OperatorMainForm.resources
+C:\Users\new\Documents\Visual Studio 2012\Projects\QPGS\QPGS\obj\Debug\QPGS.Login.resources
+C:\Users\new\Documents\Visual Studio 2012\Projects\QPGS\QPGS\obj\Debug\QPGS.ManageAccount.resources
+C:\Users\new\Documents\Visual Studio 2012\Projects\QPGS\QPGS\obj\Debug\QPGS.PrincipleMainForm.resources
+C:\Users\new\Documents\Visual Studio 2012\Projects\QPGS\QPGS\obj\Debug\QPGS.Properties.Resources.resources
+C:\Users\new\Documents\Visual Studio 2012\Projects\QPGS\QPGS\obj\Debug\QPGS.csproj.GenerateResource.Cache
+C:\Users\new\Documents\Visual Studio 2012\Projects\QPGS\QPGS\obj\Debug\QPGS.exe
+C:\Users\new\Documents\Visual Studio 2012\Projects\QPGS\QPGS\obj\Debug\QPGS.pdb
+C:\Users\new\Documents\Visual Studio 2012\Projects\QPGS\QPGS\obj\Debug\QPGS.csprojResolveAssemblyReference.cache
+E:\project\QPGS\bin\Debug\QPGS.exe.config
+E:\project\QPGS\obj\Debug\QPGS.exe
+E:\project\QPGS\obj\Debug\QPGS.pdb
+E:\project\QPGS\obj\Debug\QPGS.csprojResolveAssemblyReference.cache
+E:\project\QPGS\obj\Debug\QPGS.AddQuestion.resources
+E:\project\QPGS\obj\Debug\QPGS.CheckQuestionPaper.resources
+E:\project\QPGS\obj\Debug\QPGS.CreateAccount.resources
+E:\project\QPGS\obj\Debug\QPGS.OperatorMainForm.resources
+E:\project\QPGS\obj\Debug\QPGS.Login.resources
+E:\project\QPGS\obj\Debug\QPGS.ManageAccount.resources
+E:\project\QPGS\obj\Debug\QPGS.PrincipleMainForm.resources
+E:\project\QPGS\obj\Debug\QPGS.Properties.Resources.resources
+E:\project\QPGS\obj\Debug\QPGS.csproj.GenerateResource.Cache
+E:\project\QPGS\bin\Debug\QPGS.exe
+E:\project\QPGS\bin\Debug\QPGS.pdb
+H:\project\QPGS\bin\Debug\QPGS.exe.config
+H:\project\QPGS\bin\Debug\QPGS.exe
+H:\project\QPGS\bin\Debug\QPGS.pdb
+H:\project\QPGS\obj\Debug\QPGS.csprojResolveAssemblyReference.cache
+H:\project\QPGS\obj\Debug\QPGS.AddQuestion.resources
+H:\project\QPGS\obj\Debug\QPGS.Chapter_Master.resources
+H:\project\QPGS\obj\Debug\QPGS.Class_Exam_Mapping.resources
+H:\project\QPGS\obj\Debug\QPGS.Class_Subject_Mapping.resources
+H:\project\QPGS\obj\Debug\QPGS.CreateAccount.resources
+H:\project\QPGS\obj\Debug\QPGS.Exam_Master.resources
+H:\project\QPGS\obj\Debug\QPGS.Generate_Question_Paper.resources
+H:\project\QPGS\obj\Debug\QPGS.Login.resources
+H:\project\QPGS\obj\Debug\QPGS.ManageAccount.resources
+H:\project\QPGS\obj\Debug\QPGS.Operator_main_form.resources
+H:\project\QPGS\obj\Debug\QPGS.PrincipleMainForm.resources
+H:\project\QPGS\obj\Debug\QPGS.Properties.Resources.resources
+H:\project\QPGS\obj\Debug\QPGS.StaffMainForm.resources
+H:\project\QPGS\obj\Debug\QPGS.Subject_Master.resources
+H:\project\QPGS\obj\Debug\QPGS.csproj.GenerateResource.Cache
+H:\project\QPGS\obj\Debug\QPGS.exe
+H:\project\QPGS\obj\Debug\QPGS.pdb
+H:\project\QPGS\obj\Debug\QPGS.Class_Masterd.resources
+H:\project\QPGS\obj\Debug\QPGS.Recover_Password.resources

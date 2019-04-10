@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4A5D87BA-3C45-49D8-B845-CE5133500E9C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QPGS</RootNamespace>
+    <AssemblyName>QPGS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddQuestion.Designer.cs">
+      <DependentUpon>AddQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter_Master.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter_Master.Designer.cs">
+      <DependentUpon>Chapter_Master.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class_Exam_Mapping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class_Exam_Mapping.Designer.cs">
+      <DependentUpon>Class_Exam_Mapping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class_Masterd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class_Masterd.Designer.cs">
+      <DependentUpon>Class_Masterd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class_Subject_Mapping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class_Subject_Mapping.Designer.cs">
+      <DependentUpon>Class_Subject_Mapping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="commons.cs" />
+    <Compile Include="Connection.cs" />
+    <Compile Include="CreateAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateAccount.Designer.cs">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataBinding.cs" />
+    <Compile Include="Exam_Master.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exam_Master.Designer.cs">
+      <DependentUpon>Exam_Master.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generate_Question_Paper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generate_Question_Paper.Designer.cs">
+      <DependentUpon>Generate_Question_Paper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageAccount.Designer.cs">
+      <DependentUpon>ManageAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Operator_main_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Operator_main_form.Designer.cs">
+      <DependentUpon>Operator_main_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipleMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrincipleMainForm.Designer.cs">
+      <DependentUpon>PrincipleMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QPGSmdfDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QPGSmdfDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuestionPaper.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuestionPaper.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Recover Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recover Password.Designer.cs">
+      <DependentUpon>Recover Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQLHelper.cs" />
+    <Compile Include="StaffMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffMainForm.Designer.cs">
+      <DependentUpon>StaffMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Subject_Master.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subject_Master.Designer.cs">
+      <DependentUpon>Subject_Master.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddQuestion.resx">
+      <DependentUpon>AddQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter_Master.resx">
+      <DependentUpon>Chapter_Master.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class_Exam_Mapping.resx">
+      <DependentUpon>Class_Exam_Mapping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class_Masterd.resx">
+      <DependentUpon>Class_Masterd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class_Subject_Mapping.resx">
+      <DependentUpon>Class_Subject_Mapping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateAccount.resx">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam_Master.resx">
+      <DependentUpon>Exam_Master.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generate_Question_Paper.resx">
+      <DependentUpon>Generate_Question_Paper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageAccount.resx">
+      <DependentUpon>ManageAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\QPGS.AddQuestion.resources" />
+    <EmbeddedResource Include="obj\Debug\QPGS.CheckQuestionPaper.resources" />
+    <EmbeddedResource Include="obj\Debug\QPGS.Class_Exam_Mapping.resources" />
+    <EmbeddedResource Include="obj\Debug\QPGS.Class_master.resources" />
+    <EmbeddedResource Include="obj\Debug\QPGS.Class_Subject_Mapping.resources" />
+    <EmbeddedResource Include="obj\Debug\QPGS.CreateAccount.resources" />
+    <EmbeddedResource Include="obj\Debug\QPGS.Exam_Master.resources" />
+    <EmbeddedResource Include="obj\Debug\QPGS.Generate_Question_Paper.resources" />
+    <EmbeddedResource Include="obj\Debug\QPGS.Login.resources" />
+    <EmbeddedResource Include="obj\Debug\QPGS.ManageAccount.resources" />
+    <EmbeddedResource Include="obj\Debug\QPGS.Operator_main_form.resources" />
+    <EmbeddedResource Include="obj\Debug\QPGS.PrincipleMainForm.resources" />
+    <EmbeddedResource Include="obj\Debug\QPGS.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Debug\QPGS.Question_Type_Master.resources" />
+    <EmbeddedResource Include="obj\Debug\QPGS.StaffMainForm.resources" />
+    <EmbeddedResource Include="obj\Debug\QPGS.Subject_Master.resources" />
+    <EmbeddedResource Include="Operator_main_form.resx">
+      <DependentUpon>Operator_main_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipleMainForm.resx">
+      <DependentUpon>PrincipleMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QuestionPaper.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>QuestionPaper.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recover Password.resx">
+      <DependentUpon>Recover Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffMainForm.resx">
+      <DependentUpon>StaffMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subject_Master.resx">
+      <DependentUpon>Subject_Master.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="bin\Debug\QPGS.exe.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\QPGS.csproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\QPGS.csprojResolveAssemblyReference.cache" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QPGS.suo" />
+    <None Include="QPGSmdfDataSet.xsc">
+      <DependentUpon>QPGSmdfDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QPGSmdfDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QPGSmdfDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QPGSmdfDataSet.xss">
+      <DependentUpon>QPGSmdfDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\button_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\QPGS.exe" />
+    <Content Include="bin\Debug\QPGS.pdb" />
+    <Content Include="obj\Debug\QPGS.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\QPGS.exe" />
+    <Content Include="obj\Debug\QPGS.pdb" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\QPGSmdfDataSet.Designer.cs.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

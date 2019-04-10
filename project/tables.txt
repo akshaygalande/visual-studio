@@ -1,0 +1,209 @@
+USE [DQPGS]
+GO
+/****** Object:  Table [dbo].[1mks FIB]    Script Date: 01/21/2018 14:52:57 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[1mks FIB](
+	[Question_ID] [int] NOT NULL,
+	[Question] [nvarchar](max) NOT NULL,
+	[Chapter_ID] [int] NOT NULL,
+	[Subject_ID] [int] NOT NULL
+) ON [PRIMARY]
+
+
+
+USE [DQPGS]
+GO
+/****** Object:  Table [dbo].[1mks MCQ]    Script Date: 01/21/2018 14:54:50 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[1mks MCQ](
+	[Question_ID] [int] NOT NULL,
+	[Question] [nvarchar](max) NOT NULL,
+	[Chapter_ID] [int] NOT NULL,
+	[Subject_ID] [int] NOT NULL
+) ON [PRIMARY]
+
+
+
+
+USE [DQPGS]
+GO
+/****** Object:  Table [dbo].[1mks TRUEORFALSE]    Script Date: 01/21/2018 14:55:05 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[1mks TRUEORFALSE](
+	[Question_ID] [int] NOT NULL,
+	[Question] [nvarchar](max) NOT NULL,
+	[Chapter_ID] [int] NOT NULL,
+	[Subject_ID] [int] NOT NULL
+) ON [PRIMARY]
+
+
+
+USE [DQPGS]
+GO
+/****** Object:  Table [dbo].[2mks ONES SENTENCE]    Script Date: 01/21/2018 14:55:31 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[2mks ONES SENTENCE](
+	[Question_ID] [int] NOT NULL,
+	[Question] [nvarchar](max) NOT NULL,
+	[Chapter_ID] [int] NOT NULL,
+	[Subject_ID] [int] NOT NULL
+) ON [PRIMARY]
+
+
+
+USE [DQPGS]
+GO
+/****** Object:  Table [dbo].[3mks ANSTHEFOLLOWING]    Script Date: 01/21/2018 14:55:45 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[3mks ANSTHEFOLLOWING](
+	[Question_ID] [int] NOT NULL,
+	[Question] [nvarchar](max) NOT NULL,
+	[Chapter_ID] [int] NOT NULL,
+	[Subject_ID] [int] NOT NULL
+) ON [PRIMARY]
+
+
+
+USE [DQPGS]
+GO
+/****** Object:  Table [dbo].[4mks GIVE REASON]    Script Date: 01/21/2018 14:55:59 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[4mks GIVE REASON](
+	[Question_ID] [int] NOT NULL,
+	[Question] [nvarchar](max) NOT NULL,
+	[Chapter_ID] [int] NOT NULL,
+	[Subject_ID] [int] NOT NULL
+) ON [PRIMARY]
+
+
+
+USE [DQPGS]
+GO
+/****** Object:  Table [dbo].[5mks ANSINBRIEF]    Script Date: 01/21/2018 14:56:14 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[5mks ANSINBRIEF](
+	[Question_ID] [int] NOT NULL,
+	[Question] [nvarchar](max) NOT NULL,
+	[Chapter_ID] [int] NOT NULL,
+	[Subject_ID] [int] NOT NULL
+) ON [PRIMARY]
+
+
+
+USE [DQPGS]
+GO
+/****** Object:  Table [dbo].[5mks SHORT NOTES]    Script Date: 01/21/2018 14:56:31 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[5mks SHORT NOTES](
+	[Question_ID] [int] NOT NULL,
+	[Question] [nvarchar](max) NOT NULL,
+	[Chapter_ID] [int] NOT NULL,
+	[Subject_ID] [int] NOT NULL
+) ON [PRIMARY]
+
+
+
+USE [DQPGS]
+GO
+/****** Object:  Table [dbo].[Chapter]    Script Date: 01/21/2018 14:56:49 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Chapter](
+	[Chapter] [nvarchar](max) NOT NULL,
+	[Chapter_ID] [int] NOT NULL
+) ON [PRIMARY]
+
+
+
+
+USE [DQPGS]
+GO
+/****** Object:  Table [dbo].[Role]    Script Date: 01/21/2018 14:57:02 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Role](
+	[Role_Id] [int] IDENTITY(1,1) NOT NULL,
+	[Role_Name] [varchar](50) NULL,
+ CONSTRAINT [PK_Role] PRIMARY KEY CLUSTERED 
+(
+	[Role_Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+
+
+
+USE [DQPGS]
+GO
+/****** Object:  Table [dbo].[Subject]    Script Date: 01/21/2018 14:57:19 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Subject](
+	[Subject] [nvarchar](max) NOT NULL,
+	[Subject_ID] [int] NOT NULL
+) ON [PRIMARY]
+
+
+
+USE [DQPGS]
+GO
+/****** Object:  Table [dbo].[tbl_User]    Script Date: 01/21/2018 14:57:32 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[tbl_User](
+	[User_Id] [int] IDENTITY(1,1) NOT NULL,
+	[User_FName] [varchar](50) NULL,
+	[User_LName] [varchar](50) NULL,
+	[User_EmailId] [varchar](50) NULL,
+	[User_Address] [varchar](500) NULL,
+	[User_ConatctNo] [varchar](50) NULL,
+	[User_Username] [varchar](50) NULL,
+	[User_Password] [varchar](50) NULL,
+	[User_Role_Id] [int] NULL,
+	[RecordStatus] [int] NULL CONSTRAINT [DF_tbl_User_RecordStatus]  DEFAULT ((1)),
+ CONSTRAINT [PK_User] PRIMARY KEY CLUSTERED 
+(
+	[User_Id] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF

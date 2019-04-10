@@ -1,0 +1,15 @@
+D:\winforms\InsertUpdateDeleteSearch\InsertUpdateDeleteSearch\bin\Debug\InsertUpdateDeleteSearch.exe.config
+D:\winforms\InsertUpdateDeleteSearch\InsertUpdateDeleteSearch\bin\Debug\InsertUpdateDeleteSearch.exe
+D:\winforms\InsertUpdateDeleteSearch\InsertUpdateDeleteSearch\bin\Debug\InsertUpdateDeleteSearch.pdb
+D:\winforms\InsertUpdateDeleteSearch\InsertUpdateDeleteSearch\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\winforms\InsertUpdateDeleteSearch\InsertUpdateDeleteSearch\obj\x86\Debug\InsertUpdateDeleteSearch.Form1.resources
+D:\winforms\InsertUpdateDeleteSearch\InsertUpdateDeleteSearch\obj\x86\Debug\InsertUpdateDeleteSearch.Properties.Resources.resources
+D:\winforms\InsertUpdateDeleteSearch\InsertUpdateDeleteSearch\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\winforms\InsertUpdateDeleteSearch\InsertUpdateDeleteSearch\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\winforms\InsertUpdateDeleteSearch\InsertUpdateDeleteSearch\obj\x86\Debug\InsertUpdateDeleteSearch.exe
+D:\winforms\InsertUpdateDeleteSearch\InsertUpdateDeleteSearch\obj\x86\Debug\InsertUpdateDeleteSearch.pdb
+D:\winforms\InsertUpdateDeleteSearch\InsertUpdateDeleteSearch\bin\Debug\Emp.mdf
+D:\winforms\InsertUpdateDeleteSearch\InsertUpdateDeleteSearch\bin\Debug\Emp_log.ldf
+H:\project\raw data\InsertUpdateDeleteSearch\InsertUpdateDeleteSearch\bin\Debug\InsertUpdateDeleteSearch.exe.config
+H:\project\raw data\InsertUpdateDeleteSearch\InsertUpdateDeleteSearch\obj\x86\Debug\InsertUpdateDeleteSearch.exe
+H:\project\raw data\InsertUpdateDeleteSearch\InsertUpdateDeleteSearch\obj\x86\Debug\InsertUpdateDeleteSearch.pdb
